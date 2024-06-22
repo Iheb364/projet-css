@@ -1,0 +1,54 @@
+
+.image img{
+ width: 250px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 1px 8px 5px 0px rgba(0,0,0,0.75);}
+
+ul{
+    display:flex;
+    color: rgb(112, 105, 105);
+    
+}
+
+li{
+    list-style: none;
+    padding-left: 15px;
+}
+
+li:hover{
+    cursor: pointer;
+    color: forestgreen;
+}
+img{
+    width: 25px;
+    padding: left 50%; ;
+}
+
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+}
+
+.para p{
+    padding-left: 8px 
+
+} 
+.text h1{
+    color: rgb(18, 162, 114);
+}
+
+ 
